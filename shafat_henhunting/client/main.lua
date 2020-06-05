@@ -42,7 +42,7 @@ local AnimalPositions = {
 }
 
 local AnimalsInSession = {}
-
+-- /tp 1441.474609375 1138.1555175781 114.20000001 Use Custom Blip.
 local Positions = {
 	['StartHunting'] = { ['hint'] = '[E] Start Hunting', ['x'] = 1441.474609375, ['y'] = 1138.1555175781, ['z'] = 114.20000001 },
 	['Sell'] = { ['hint'] = '[E] Sell', ['x'] = 1441.4969482422, ['y'] = 1142.05273734375, ['z'] = 114.20000001 },
