@@ -1,6 +1,4 @@
-ESX                = nil
-
-TriggerEvent('esx:getSharedObject', function(obj) ESX = obj end)
+ESX = exports["es_extended"]:getSharedObject()
 
 RegisterServerEvent('shafat-henhunting:reward')
 AddEventHandler('shafat-henhunting:reward', function(Weight)
