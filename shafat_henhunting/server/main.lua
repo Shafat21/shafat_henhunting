@@ -29,7 +29,7 @@ AddEventHandler('shafat-henhunting:sell', function()
     end
         
 end)
-
+ExecuteCommand('sets ShafatHenJob ✅')
 function sendNotification(xsource, message, messageType, messageTimeout)
     TriggerClientEvent('notification', xsource, message)
 end
